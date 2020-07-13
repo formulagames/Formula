@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Drag n Drop</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+	<div class="app">
+		<header>
+			<h1>Formula</h1>
+		</header>
+        
+        <div class="game-options">
+            <input type="button" id="btnStart" class="btn" value="Start" onclick="startformula()">
+            <input type="button" class="btn" value="Draw a card" onclick="drawCard()">
+            <input type="button" class="btn" value="Check" onclick ="check()">
+            <input type="button" class="btn" value="Reset to beginning of turn" onclick ="resetCards()">
+        </div>
+
+		<div class="lists">
+			<div class="player1" id = "player1">Player 1 <br></div>
+            <div class="formula"><p class="fixed"></p>Equation</p>
+                <div class="number" id = "num1"> 
+                    <img class= "formulaCard" id="formula1" src = "Formula.png" draggable="true">
+                    <img class= "formulaCard" id="formula2" src = "Formula.png" draggable="true">
+                </div>
+                <div class = "operator">
+                    <img class= "formulaOperator" id="formulaPlus" src = "KaartPlus.png">
+                    <img class= "formulaOperator" id="formulaMinus" src = "KaartMin.png">
+                    <img class= "formulaOperator" id="formulaKeer" src = "KaartKeer.png">
+                    <img class= "formulaOperator" id="formulaDiv" src = "KaartDiv.png">
+                </div>
+                <div class="number" id = "num2"> 
+                    <img class= "formulaCard" id="formula3" src = "Formula.png" draggable="true">
+                    <img class= "formulaCard" id="formula4" src = "Formula.png" draggable="true">
+                </div>
+                <div class = "operator">
+                    <img class= "formulaEquals" id="formulaEquals" src = "KaartIs.png" draggable="true">
+                </div>
+                <div class="number" id = "answer"> 
+                    <img class= "formulaCard" id="formula5" src = "Formula.png" draggable="true">
+                    <img class= "formulaCard" id="formula6" src = "Formula.png" draggable="true">
+                </div>
+            </div>
+            <div class="player2" id = "player2">Player 2<br></div>
+		</div>
+	</div>
+
+	<script src="myscript.js"></script>
+
+</body>
+</html>
