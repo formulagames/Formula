@@ -16,7 +16,7 @@ This works well:
 - Draw a card
 
 This does not work well:
-- Reset to beginning of turn. If you dragged a card to the "formula" section and you want believe you made a mistake and want to 
+- Reset to beginning of turn. If you dragged a card to the "formula" section and you believe you made a mistake and want to 
   take the card back, you can click the "reset" button. However, when you click this button, the card does go back in your hand, 
   but unfortunately, also stays in the "formula" section. This should not happen, but I do not know why this.
 
