@@ -36,6 +36,8 @@ I am the creator and publisher of the board game Formula.
 In the Corona time I decided to start learning some coding myself to be able to make a website where the game Formula can be played.
 I learned Javascript and the basics of HTML/CSS through Khan Academy. I also watched tons of youtube movies.
 
+
+## Introduction
 I came up with the code in this project, but now I'm stuck.
 
 This works well:
