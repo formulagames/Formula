@@ -8,6 +8,10 @@ Have node.js installed
 
 In the project directory, you can run:
 
+### `npm i`
+
+This creates the folder node_modules in the directory after this you can run the following commands.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
